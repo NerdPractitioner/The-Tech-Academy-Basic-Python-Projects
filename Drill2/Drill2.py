@@ -85,8 +85,8 @@ if __name__ == "__main__":
         print(varFile)
         for item in varFile:
             
-            msg = "File Name: {}".format(item)
-        print(msg)
+            msg = "File Name: {}".format(item[0])
+            print(msg)
 
     conn.close()
 
